@@ -1,0 +1,15 @@
+a[href^="http"] {
+  color: blue;
+}
+
+a[href$=".html"] {
+  color: green;
+}
+
+[title] {
+  background: #f0f0a0;
+}
+
+p[class*="item-"] {
+  font-weight: bold;
+}
